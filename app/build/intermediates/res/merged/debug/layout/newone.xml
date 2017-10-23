@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/bg">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textPassword"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:textColor="#00FCFF"
+		android:id="@+id/ed"
+		android:background="@drawable/youc2"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:id="@+id/bt"
+		android:layout_marginTop="20dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:textSize="20sp"
+		android:textColor="#0C0CDA"
+		android:id="@+id/tv"
+		android:background="@drawable/youc3"/>
+
+	<VideoView
+		android:id="@+id/sp"
+		android:layout_height="300dp"
+		android:layout_width="300dp"/>
+
+</LinearLayout>
+

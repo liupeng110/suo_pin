@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true" >
+
+	<!--accelerate_decelerate_interpolator加速-减速
+		accelerate_interpolator加速-
+		decelerate_interpolator减速
+	AccelerateDecelerateInterpolator        在动画开始与介绍的地方速率改变比较慢，在中间的时侯加速
+	AccelerateInterpolator        在动画开始的地方速率改变比较慢，然后开始加速
+	CycleInterpolator        动画循环播放特定的次数，速率改变沿着正弦曲线
+	DecelerateInterpolator        在动画开始的地方速率改变比较慢，然后开始减速
+	LinearInterpolator        在动画的以均匀的速率改变-->
+    <alpha
+        android:duration="2000"
+        android:fromAlpha="0.4"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0" />
+	<!--
+	<scale
+		android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="1500"
+        android:fromXScale="2.5"
+        android:fromYScale="2.5"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1"
+        android:toYScale="1" >
+    </scale>
+	-->
+	<translate
+		android:interpolator="@android:anim/accelerate_interpolator"
+      android:fromXDelta="0%p"
+        android:toXDelta="50%p"
+        android:duration="1500">
+	</translate>
+
+
+
+
+</set>

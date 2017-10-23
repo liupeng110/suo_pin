@@ -1,0 +1,84 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\h\
+* app\src\main\java\com\h\DU.java
+* app\src\main\java\com\h\M.java
+* app\src\main\java\com\h\MyAdmin.java
+* app\src\main\java\com\h\bbb.java
+* app\src\main\java\com\h\s.java
+* app\src\main\res\
+* app\src\main\res\anim\
+* app\src\main\res\anim\show1.xml
+* app\src\main\res\anim\show2.xml
+* app\src\main\res\anim\show3.xml
+* app\src\main\res\anim\show4.xml
+* app\src\main\res\anim\tvanim.xml
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\bg.jpg
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\icon.png
+* app\src\main\res\drawable\youc1.xml
+* app\src\main\res\drawable\youc2.xml
+* app\src\main\res\drawable\youc3.xml
+* app\src\main\res\layout\
+* app\src\main\res\layout\main.xml
+* app\src\main\res\layout\newone.xml
+* app\src\main\res\values\
+* app\src\main\res\values\colors.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* app\src\main\res\xml\
+* app\src\main\res\xml\my_admin.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* settings.gradle
+* 进来看看不看后悔.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

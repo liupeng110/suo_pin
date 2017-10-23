@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="down">#486EC4</color>
+    <color name="stroke">#6B7179</color>
+    <color name="up">#EDDEE7</color>
+    <string name="app_name">装B神器</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	</style>
+</resources>
